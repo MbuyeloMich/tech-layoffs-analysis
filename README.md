@@ -4,10 +4,9 @@
 ## 🛠️ Tech Stack
 
 <p align="center">
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" width="48" />
-	<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_Power_BI_Logo.svg" alt="Power BI" width="48" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg" alt="Excel" width="48" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="SQL Management Studio" width="48" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" width="60" style="margin: 0 20px;" />
+	<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_Power_BI_Logo.svg" alt="Power BI" width="60" style="margin: 0 20px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg" alt="Excel" width="60" style="margin: 0 20px;" />
 </p>
 
 ---
