@@ -1,5 +1,8 @@
 
 
+
+## 🛠️ Tech Stack
+
 <p align="center">
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="48" />
 	<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_Power_BI_Logo.svg" alt="Power BI" width="48" />
@@ -7,6 +10,24 @@
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="48" />
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="48" />
 </p>
+
+---
+
+## 🗂️ System Design
+
+```mermaid
+graph TD
+		A[Layoffs CSV Data] --> B[SQL Data Cleaning]
+		B --> C[Excel Quick Checks]
+		B --> D[Power BI Dashboard]
+		B --> E[Python & Pandas Analysis]
+		E --> D
+		C --> D
+		D[Power BI Dashboard] --> F[Insights & Visualization]
+		E --> F
+		C --> F
+```
+
 
 
 # Tech Layoffs Analysis
@@ -34,25 +55,46 @@ Whether you're a data enthusiast, business leader, or analyst, this repository o
 - Converts dates and corrects data types
 - Staging tables used for stepwise data refinement
 
-## 📊 Visualization
 
-- Power BI dashboard presents interactive insights
-- Highlights trends and key metrics
-- Enables exploration by sector, geography, and funding
+## 📝 SQL Code Examples
+
+Below are some key SQL snippets used for data cleaning and transformation in this project:
+
+```sql
+-- Remove duplicates
+DELETE FROM layoffs_staging
+WHERE id NOT IN (
+	SELECT MIN(id)
+	FROM layoffs_staging
+	GROUP BY company, date, industry
+);
+
+-- Handle missing values
+UPDATE layoffs_staging
+SET country = 'Unknown'
+WHERE country IS NULL;
+
+-- Standardize industry names
+UPDATE layoffs_staging
+SET industry = 'Information Technology'
+WHERE industry IN ('IT', 'Tech', 'Technology');
+```
+
+These queries are part of the cleaning_eda.sql file and demonstrate the manual, step-by-step approach to preparing the dataset for analysis.
+
 
 ## 📁 Files
 
 - `layoffs.csv` — Raw dataset
 - `cleaning_eda.sql` — Data cleaning and transformation steps
-- `power_bi_project_shxdabb.pbix` — Power BI dashboard
+- `power_bi_layoffs.pbix` — Power BI dashboard for layoff analysis
 
 ## 🛠️ Tech Stack
 
 - MySQL
 - Power BI Desktop
 - Excel
-- Python
-- Pandas
+
 
 ## 💡 Why This Project?
 
