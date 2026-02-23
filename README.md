@@ -4,9 +4,9 @@
 ## 🛠️ Tech Stack
 
 <p align="center">
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" width="60" style="margin: 0 20px;" />
-	<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_Power_BI_Logo.svg" alt="Power BI" width="60" style="margin: 0 20px;" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg" alt="Excel" width="60" style="margin: 0 20px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" width="60" />
+	<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_Power_BI_Logo.svg" alt="Power BI" width="60" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg" alt="Excel" width="60" />
 </p>
 
 ---
@@ -92,6 +92,11 @@ These queries are part of the cleaning_eda.sql file and demonstrate the manual, 
 - Power BI Desktop
 - Excel
 
+
+
+## Contributors
+
+- Mbuyelo Mich
 
 ## 💡 Why This Project?
 
