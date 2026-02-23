@@ -16,7 +16,7 @@
 |:------------:|:------------:|
 | ![Screenshot 3](screenshot3.png) | ![Screenshot 4](screenshot4.png) |
 
-<p align="center"><i>Screenshots of the Power BI analysis and insights</i></p>
+_Screenshots of the Power BI analysis and insights_
 
 ---
 
