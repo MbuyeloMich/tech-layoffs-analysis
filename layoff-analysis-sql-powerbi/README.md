@@ -11,10 +11,10 @@
 ## 🖼️ Screenshots
 
 
-<div align="center">
-	<img src="screenshot3.png" alt="Screenshot 3" width="45%" style="margin-right: 10px;" />
-	<img src="screenshot4.png" alt="Screenshot 4" width="45%" />
-</div>
+
+| Screenshot 3 | Screenshot 4 |
+|:------------:|:------------:|
+| ![Screenshot 3](screenshot3.png) | ![Screenshot 4](screenshot4.png) |
 
 <p align="center"><i>Screenshots of the Power BI analysis and insights</i></p>
 
