@@ -10,27 +10,13 @@
 
 ## 🖼️ Screenshots
 
-### Power BI Project Dashboard Screenshot
-![Power BI Project Dashboard](main%20screen.png)
 
-This screenshot shows the Power BI report titled "power_bi_layoffs," which provides a comprehensive dashboard visualizing company layoffs across regions and sectors. It includes:
-- Total layoffs (2M), max layoffs per event (3K), and total companies affected (101)
-- Timeline of key milestones and task completions
-- Regional breakdowns (e.g., SF Bay Area, Bengaluru, Philadelphia)
-- Sector insights (Healthcare, Finance, Retail, etc.)
-- Funding rounds and company-specific data (e.g., Series E, Alto Pharmacy, Aqua Security)
-The dashboard integrates staging datasets and visualizations to track planned vs. actual progress, making it a valuable tool for analyzing workforce trends and strategic planning.
+<div align="center">
+	<img src="screenshot3.png" alt="Screenshot 3" width="45%" style="margin-right: 10px;" />
+	<img src="screenshot4.png" alt="Screenshot 4" width="45%" />
+</div>
 
-### Additional Dashboard View
-![Additional Dashboard View](screenshot2.png)
-
-This image provides another perspective of the Power BI analysis, highlighting further breakdowns or visualizations relevant to the layoff data and trends.
-
-### New Screenshots
-![Screenshot 3](screenshot3.png)
-![Screenshot 4](screenshot4.png)
-
-These images further illustrate the Power BI analysis and insights.
+<p align="center"><i>Screenshots of the Power BI analysis and insights</i></p>
 
 ---
 
